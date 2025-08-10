@@ -6,16 +6,11 @@
 /*   By: aoneil <aoneil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/25 17:06:41 by aoneil            #+#    #+#             */
-/*   Updated: 2025/08/10 16:58:04 by aoneil           ###   ########.fr       */
+/*   Updated: 2025/08/10 17:15:57 by aoneil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
-char	*ft_strjoin(char const *s1, char const *s2);
-char	*ft_strdup(char *s);
-char	*ft_strchr(const char *s, int c);
-char	*get_next_line(int fd);
 
 char	*ft_read_loop(int fd, char *reminder, char *buffer)
 {
